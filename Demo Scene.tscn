@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Demo Scene.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 17.0
+margin_top = 30.0
+margin_right = 221.0
+margin_bottom = 50.0
+text = "Get Image From Gallery"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 20.2655
+margin_top = 70.9797
+margin_right = 219.265
+margin_bottom = 236.98
+__meta__ = {
+"_edit_use_anchors_": false
+}
